@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bdee14b5a6244fadb50e96949b6c6c8, type: 3}
+  m_Name: GameLevelData
+  m_EditorClassIdentifier: 
+  data:
+  - categoryName: Food
+    boardData:
+    - {fileID: 11400000, guid: 2e26c5c84ba6a4f328a2b579de2a16e9, type: 2}
+    - {fileID: 11400000, guid: b1bd7c6cffae242e086fc4e81cb9361d, type: 2}
+    - {fileID: 11400000, guid: bb55986aabc844f38a15b4b44b0cfb93, type: 2}
+  - categoryName: Animals
+    boardData:
+    - {fileID: 11400000, guid: 9c0d87b94d7ff4e0a999ae84bbc101e1, type: 2}
+    - {fileID: 11400000, guid: 7930b739c43fd4c2ab5c137921d116e1, type: 2}
+  - categoryName: Sport
+    boardData:
+    - {fileID: 11400000, guid: 6b6f630697099420d82b905e86da431d, type: 2}
+    - {fileID: 11400000, guid: dfe1956a41cc149949308bdfd1547ae3, type: 2}
+  - categoryName: Hobbies
+    boardData:
+    - {fileID: 11400000, guid: 1d6b09d65a1704dd69b7ab0c4a304cb8, type: 2}
+  - categoryName: Work
+    boardData:
+    - {fileID: 11400000, guid: fd638299292d64c08afb10319c8824d2, type: 2}
+    - {fileID: 11400000, guid: 19947f668efa24080bc198063e780b1e, type: 2}
+  - categoryName: Countries
+    boardData:
+    - {fileID: 11400000, guid: b1c2116abc2f0401899b6d0a9c54da2f, type: 2}
+    - {fileID: 11400000, guid: 1c96b85d4e8064dd28ed63811c5b804b, type: 2}
