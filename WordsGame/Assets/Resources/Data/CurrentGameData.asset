@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad209ee4fac24984ab87fe19aefab9e, type: 3}
   m_Name: CurrentGameData
   m_EditorClassIdentifier: 
-  selectedCategoryName: 
-  selectedBoardData: {fileID: 11400000, guid: c81367a49d2fe4551a2051446e56b758, type: 2}
+  selectedCategoryName: Food
+  selectedBoardData: {fileID: 11400000, guid: 062bbdfb90e06425f9610d39001ed868, type: 2}

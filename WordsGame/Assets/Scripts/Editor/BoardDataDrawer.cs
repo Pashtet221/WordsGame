@@ -146,7 +146,7 @@ public class BoardDataDrawer : Editor
             {
                 for (var j = 0; j < GameDataInstance.Rows; j++)
                 {
-                    var errorCounter = Regex.Matches(GameDataInstance.Board[i].Row[j], @"[а-z]").Count;
+                    var errorCounter = Regex.Matches(GameDataInstance.Board[i].Row[j], @"[а-я]").Count;
 
                     if (errorCounter > 0)
                         GameDataInstance.Board[i].Row[j] = GameDataInstance.Board[i].Row[j].ToUpper();
@@ -156,7 +156,7 @@ public class BoardDataDrawer : Editor
 
             foreach (var searchWord in GameDataInstance.SearchWords)
             {
-                var errorCounter = Regex.Matches(searchWord.Word, @"[a-z]").Count;
+                var errorCounter = Regex.Matches(searchWord.Word, @"[а-я]").Count;
 
                 if (errorCounter > 0)
                 {
@@ -190,8 +190,8 @@ public class BoardDataDrawer : Editor
             {
                 for (int j = 0; j < GameDataInstance.Rows; j++)
                 {
-                    int errorCounter = Regex.Matches(GameDataInstance.Board[i].Row[j], @"[a-zA-Z]").Count;
-                    string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                    int errorCounter = Regex.Matches(GameDataInstance.Board[i].Row[j], @"[а-яА-Я]").Count;
+                    string letters = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
                     int index = UnityEngine.Random.Range(0, letters.Length);
 
                     if (errorCounter == 0)

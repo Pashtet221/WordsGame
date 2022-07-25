@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef40469efdb234978972bfb333cc4f40, type: 3}
+  m_Name: Book1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 40
+  Columns: 7
+  Rows: 7
+  Board:
+  - Size: 7
+    Row:
+    - "\u042B"
+    - "\u0424"
+    - "\u0410"
+    - "\u042B"
+    - "\u0426"
+    - "\u0423"
+    - "\u041A"
+  - Size: 7
+    Row:
+    - "\u041D"
+    - "\u0422"
+    - "\u041C"
+    - "\u0418"
+    - "\u0423"
+    - "\u041D"
+    - "\u0412"
+  - Size: 7
+    Row:
+    - "\u0428"
+    - "\u0423"
+    - "\u0411"
+    - "\u0414"
+    - "\u0424"
+    - "\u0415"
+    - "\u0424"
+  - Size: 7
+    Row:
+    - "\u0420"
+    - "\u0415"
+    - "\u0412"
+    - "\u0418"
+    - "\u0417"
+    - "\u041E"
+    - "\u0420"
+  - Size: 7
+    Row:
+    - "\u0418"
+    - "\u0413"
+    - "\u0420"
+    - "\u041E"
+    - "\u041A"
+    - "\u042D"
+    - "\u0419"
+  - Size: 7
+    Row:
+    - "\u042F"
+    - "\u041B"
+    - "\u042E"
+    - "\u0422"
+    - "\u042C"
+    - "\u0401"
+    - "\u0422"
+  - Size: 7
+    Row:
+    - "\u0412"
+    - "\u042F"
+    - "\u041E"
+    - "\u0410"
+    - "\u0414"
+    - "\u042B"
+    - "\u0416"
+  SearchWords:
+  - Word: "\u0418\u0414\u0418\u041E\u0422"
+  - Word: "\u0420\u0415\u0412\u0418\u0417\u041E\u0420"
+  - Word: "\u0418\u0413\u0420\u041E\u041A"
