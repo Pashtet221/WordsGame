@@ -13,23 +13,27 @@ MonoBehaviour:
   m_Name: GameLevelData
   m_EditorClassIdentifier: 
   data:
-  - categoryName: Food
+  - categoryName: Books
+    boardData:
+    - {fileID: 11400000, guid: 8628bda91239d490cac1ba3c4e96688a, type: 2}
+    - {fileID: 11400000, guid: 9445483eb2bbe440c9722137b1197bd7, type: 2}
+  - categoryName: Games
     boardData:
     - {fileID: 11400000, guid: f5263a41eec024aca89cc02c2d8b1be4, type: 2}
     - {fileID: 11400000, guid: 553f7c86981bb466f8d968eb3c784aab, type: 2}
     - {fileID: 11400000, guid: 062bbdfb90e06425f9610d39001ed868, type: 2}
-  - categoryName: Sport
+  - categoryName: Films
     boardData:
-    - {fileID: 11400000, guid: 8628bda91239d490cac1ba3c4e96688a, type: 2}
-    - {fileID: 11400000, guid: 9445483eb2bbe440c9722137b1197bd7, type: 2}
-  - categoryName: Hobbies
+    - {fileID: 11400000, guid: 341532aa861914c679361cd0e03ea8d7, type: 2}
+    - {fileID: 11400000, guid: ff8d2319d43da42629c4eba870fc46f1, type: 2}
+    - {fileID: 11400000, guid: 8dfaf23d8fea94676bcf3c042f903a4d, type: 2}
+    - {fileID: 11400000, guid: 34b27e56e139f4edc94b3d21100a80ee, type: 2}
+  - categoryName: Music
     boardData:
-    - {fileID: 11400000, guid: 1d6b09d65a1704dd69b7ab0c4a304cb8, type: 2}
-  - categoryName: Work
+    - {fileID: 11400000, guid: c01e9df97e8ea4c71bb029a5b26c8b6c, type: 2}
+    - {fileID: 11400000, guid: 85cdf130fb2fb48c2a02a4ea52e359a6, type: 2}
+  - categoryName: Art
     boardData:
-    - {fileID: 11400000, guid: fd638299292d64c08afb10319c8824d2, type: 2}
-    - {fileID: 11400000, guid: 19947f668efa24080bc198063e780b1e, type: 2}
-  - categoryName: Countries
-    boardData:
-    - {fileID: 11400000, guid: b1c2116abc2f0401899b6d0a9c54da2f, type: 2}
-    - {fileID: 11400000, guid: 1c96b85d4e8064dd28ed63811c5b804b, type: 2}
+    - {fileID: 11400000, guid: 63982ad555d4f4dcd83817a55a30b12c, type: 2}
+    - {fileID: 11400000, guid: b137f6d908ef94aefb902df2e328b922, type: 2}
+    - {fileID: 11400000, guid: c87d80f2832f046768b389239af09302, type: 2}

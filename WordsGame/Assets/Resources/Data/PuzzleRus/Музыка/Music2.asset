@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef40469efdb234978972bfb333cc4f40, type: 3}
+  m_Name: Music2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 40
+  Columns: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - "\u0419"
+    - "\u0416"
+    - "\u0422"
+    - "\u041C"
+    - "\u0410"
+    - "\u0422"
+  - Size: 6
+    Row:
+    - "\u042C"
+    - "\u041B"
+    - "\u041C"
+    - "\u041D"
+    - "\u041B"
+    - "\u041D"
+  - Size: 6
+    Row:
+    - "\u0419"
+    - "\u0420"
+    - "\u0413"
+    - "\u0420"
+    - "\u0415"
+    - "\u0425"
+  - Size: 6
+    Row:
+    - "\u0427"
+    - "\u0415"
+    - "\u0413"
+    - "\u041B"
+    - "\u0418"
+    - "\u0425"
+  - Size: 6
+    Row:
+    - "\u041B"
+    - "\u0418"
+    - "\u041F"
+    - "\u0414"
+    - "\u0401"
+    - "\u042A"
+  - Size: 6
+    Row:
+    - "\u0411"
+    - "\u0420"
+    - "\u0417"
+    - "\u041E"
+    - "\u0425"
+    - "\u0413"
+  SearchWords:
+  - Word: "\u0410\u041D\u0413\u0415\u041B"
+  - Word: "\u0413\u0420\u0415\u0425"

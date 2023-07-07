@@ -29,8 +29,8 @@ public class WordsGrid : MonoBehaviour
 
         var offset = new Vector2
         {
-            x = (squareRect.width * squareTransform.localScale.x + squareOffset) * 0.018f,
-            y = (squareRect.height * squareTransform.localScale.y + squareOffset) * 0.018f
+            x = (squareRect.width * squareTransform.localScale.x + squareOffset) * 0.01f,
+            y = (squareRect.height * squareTransform.localScale.y + squareOffset) * 0.01f
         };
 
         var startPosition = GetFirstSquarePosition();
